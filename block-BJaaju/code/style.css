@@ -1,0 +1,54 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Custom Styles */
+
+body {
+  background-color: antiquewhite;
+}
+
+.container {
+  max-width: 62rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+header {
+  text-align: center;
+  background-color: #f5254f;
+  color: aliceblue;
+  padding: 1rem 0;
+}
+
+input {
+  margin: 2rem 0;
+  border: 2px solid #f5254f;
+  border-radius: 7px;
+  padding: 0.6rem;
+  outline: none;
+  width: 20rem;
+  display: inline-block;
+}
+
+img {
+  width: 100%;
+  border-radius: 7px;
+}
+
+li {
+  list-style-type: none;
+  width: 15rem;
+  margin-bottom: 0.3rem;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
