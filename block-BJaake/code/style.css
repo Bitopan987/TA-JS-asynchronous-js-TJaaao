@@ -1,0 +1,29 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Custom Styles */
+
+body {
+  background-color: #ece9bd;
+}
+
+.container {
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 0 2rem;
+  text-align: center;
+}
+
+header {
+  background-color: black;
+  color: cornsilk;
+  padding: 1rem 0;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+}
