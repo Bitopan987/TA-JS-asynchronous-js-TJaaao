@@ -22,7 +22,7 @@ body {
 }
 
 header {
-  background-color: black;
+  background-color: #363535;
   color: cornsilk;
   padding: 1rem 0;
   text-align: center;
@@ -118,7 +118,6 @@ select {
 
 .spinner {
   height: 100vh;
-  text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
