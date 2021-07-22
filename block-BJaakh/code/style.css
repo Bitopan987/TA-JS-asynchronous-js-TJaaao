@@ -163,4 +163,5 @@ span {
   color: red;
   font-size: 2rem;
   padding-left: 3rem;
+  cursor: pointer;
 }
